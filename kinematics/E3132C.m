@@ -7,6 +7,10 @@ function C = E3132C(q)
 	%		q must be a 3x1 vector of Euler angles.
 	%
 	
+	if !isequal(size(q),[3 1])
+		error('q is not a 3x1 vector')
+	end
+
 	sq1 = sin(q(1));
 	cq1 = cos(q(1));
 	sq2 = sin(q(2));
