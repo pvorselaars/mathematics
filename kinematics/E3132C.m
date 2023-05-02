@@ -18,7 +18,7 @@ function C = E3132C(q)
 	sq3 = sin(q(3));
 	cq3 = cos(q(3));
 
-	C   = [ cq3*cq1 - sq3*cq2*sq1		cq3*sq1 + sq3*cq2*cq1	 sq3*sq2;
-					-sq3*cq1 - cq3*cq2*sq1	-sq3*sq1 + cq3*cq2*cq1 cq3*sq2;
-					sq2*sq1									-sq2*cq1							 cq2   ];
+	C   = [ cq3*cq1 - sq3*cq2*sq1	cq3*sq1 + sq3*cq2*cq1  sq3*sq2;
+			-sq3*cq1 - cq3*cq2*sq1	-sq3*sq1 + cq3*cq2*cq1 cq3*sq2;
+			sq2*sq1					-sq2*cq1			   cq2   ];
 

@@ -1,8 +1,8 @@
 function S = tilde(x)
 	if (length(x) == 3)
-		S = [ 0    -x(3) x(2);
-					x(3)  0   -x(1);
-				 -x(2)  x(1) 0];
+		S = [ 0     -x(3) x(2);
+			  x(3)  0     -x(1);
+			  -x(2) x(1)  0];
 	elseif (length(x) == 1)
 		S = [0 -x; x 0];
 	else 

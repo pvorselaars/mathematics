@@ -10,5 +10,5 @@ function q = C2E321(C)
 	end
 
 	q = [ atan2(C(1,2),C(1,1));
-				asin(-C(1,3));
-				atan2(C(2,3),C(3,3)) ];
+		  asin(-C(1,3));
+		  atan2(C(2,3),C(3,3)) ];

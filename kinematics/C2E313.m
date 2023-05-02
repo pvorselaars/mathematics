@@ -10,5 +10,5 @@ function q = C2E313(C)
 	end
 
 	q = [ atan2(C(3,1),-C(3,2));
-				acos(C(3,3));
-				atan2(C(1,3),C(2,3)) ];
+		  acos(C(3,3));
+		  atan2(C(1,3),C(2,3)) ];
