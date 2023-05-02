@@ -1,4 +1,4 @@
-function S = skew(x)
+function S = tilde(x)
 	if (length(x) == 3)
 		S = [ 0    -x(3) x(2);
 					x(3)  0   -x(1);
