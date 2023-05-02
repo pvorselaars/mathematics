@@ -8,4 +8,3 @@ function S = skew(x)
 	else 
 		error('argument must be a 1x1 or 3x1 vector.');
 	end
-end
